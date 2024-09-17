@@ -1,0 +1,195 @@
+:root{ 
+    --main-color: rgb(108, 7, 240);  
+    box-sizing: border-box;
+}  
+ 
+*, 
+::before, 
+::after{ 
+    box-sizing: inherit;
+}
+
+body{ 
+    background-color: var(--main-color)
+    
+   
+}  
+ 
+.container{ 
+    margin: 0 auto;
+    max-width: 1100px
+} 
+.intro-flex{ 
+    display: flex; 
+    
+} 
+ 
+.intro-flex > *{ 
+    margin-top: 0; 
+    margin-bottom: 
+    30;
+
+}
+h2{ 
+    color: white; 
+    font-size: 45px; 
+    margin-left: 100px; 
+    margin-top: 50px;
+} 
+
+.divheader{ 
+   
+    margin-left: auto;
+}
+.header {
+    color: white;  
+    text-align: right; 
+    margin-right: 200px; 
+    margin-top: 0px; 
+    margin-bottom: 0px;
+} 
+
+
+ 
+.flex-container{ 
+    display: flex; 
+    justify-content: center; 
+    
+}
+ 
+.pricing-container{ 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 400px 140px;
+    gap: 15px;
+} 
+ 
+.pricing-label{ 
+    background-color: white;  
+   
+    border-radius: 20px;
+}  
+ 
+.pricing-label > *{ 
+padding-left: 20px ;
+}
+ 
+.pricing-purecms{ 
+    background-color: black; 
+    
+    
+    border-radius: 10px; 
+    grid-column: span 3;
+} 
+ 
+.pricing-plan{ 
+     
+    color: var(--main-color);
+    font-weight: bold; 
+    font-size: 20px; 
+    padding-top: 0.5em;
+    
+    
+    
+} 
+ 
+.price{ 
+    font-size: 40px; 
+    font-weight: bold;  
+    margin-top: 20px;  
+    margin-bottom: 20px; 
+    padding-right: 1em;
+
+} 
+ 
+.features{ 
+    list-style: none;
+} 
+.features li{ 
+    padding-bottom: 10px;
+} 
+
+.signup{ 
+    background-color: black; 
+    border-radius: 17px; 
+    color: white; 
+    padding: 7px; 
+    margin-left: 2em;
+} 
+ 
+a:link {
+    
+    text-decoration: none 
+} 
+ 
+a:visited {
+    color: none; 
+} 
+ 
+a:hover {
+    color: rgb(154, 253, 5); ; 
+} 
+ 
+a:active {
+    color:  rgb(154, 253, 5) ; 
+} 
+ 
+.save { 
+    background-color: rgb(154, 253, 5);  
+    border-radius: 50px; 
+    color: black; 
+    font-size: initial; 
+    margin-left: auto; 
+    width: auto; 
+    padding: 0.5em;  
+    font-weight: bold;
+
+   
+  
+} 
+
+.description{ 
+    color: gray; 
+    
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    
+}   
+ 
+.pricing-purecms > * { 
+    padding-left: 10px;
+}
+ 
+.pricing-plancms{ 
+    color: rgb(154, 253, 5); 
+   
+    font-weight: bold; 
+    font-size: 1.4rem;
+} 
+ 
+
+ 
+ .pricecms{ 
+    color: white; 
+    font-weight: bold ; 
+    
+    margin-left: auto; 
+    padding-top: 0px; 
+    font-size: 2.5rem;
+}  
+ 
+.pricing-purecms > p{ 
+    color: white;
+}
+ 
+.listcms{ 
+    display: flex;  
+    gap: 10px;
+    list-style: none; 
+    padding-left: 10px;
+} 
+ 
+.listcms li{ 
+    color: white;
+} 
+  
